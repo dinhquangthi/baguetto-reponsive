@@ -21,7 +21,8 @@ h3 a {
   font-weight: bold;
   color: #8B4513;
   padding-top: 5px;
-  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 
 h3 a:hover {
@@ -164,7 +165,8 @@ h3 a:hover {
 }
 
 .slide-img.bienmatubentrai {
-  animation: bienmatubentrai 0.8s forwards;
+  -webkit-animation: bienmatubentrai 0.8s forwards;
+          animation: bienmatubentrai 0.8s forwards;
 }
 
 @-webkit-keyframes bienmatubentrai {
@@ -182,7 +184,8 @@ h3 a:hover {
 }
 
 .slide-img.bienmatubenphai {
-  animation: bienmatubenphai 0.8s forwards;
+  -webkit-animation: bienmatubenphai 0.8s forwards;
+          animation: bienmatubenphai 0.8s forwards;
 }
 
 @-webkit-keyframes bienmatubenphai {
@@ -200,7 +203,8 @@ h3 a:hover {
 }
 
 .slide-img.divaotubenphai {
-  animation: divaotubenphai 0.8s forwards;
+  -webkit-animation: divaotubenphai 0.8s forwards;
+          animation: divaotubenphai 0.8s forwards;
 }
 
 @-webkit-keyframes divaotubenphai {
@@ -218,7 +222,8 @@ h3 a:hover {
 }
 
 .slide-img.divaotubentrai {
-  animation: divaotubentrai 0.8s forwards;
+  -webkit-animation: divaotubentrai 0.8s forwards;
+          animation: divaotubentrai 0.8s forwards;
 }
 
 @-webkit-keyframes divaotubentrai {

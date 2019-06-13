@@ -1,4 +1,4 @@
-/* Màng hình laptop hoặc desktop lớn*/
+
 @media (min-width: 1367px) {
   .banner{
     width: 100%;
@@ -49,7 +49,6 @@
   }
 }
 
-/* Màng hình máy tính bảng lớn hoặc máy tính màng hình trung bình */
 @media (min-width: 992px) and (max-width: 1199px) {
   .banner{
     width: 100%;
@@ -73,7 +72,7 @@
     font-size: 1rem;
     max-width: 25%;
     max-height: 70%;
-    padding: 0.4% 5%;
+    padding: 0.2% 5%;
     left: 40%;
     top: 80%;
   }
@@ -91,13 +90,31 @@
       margin-top: 10%;
       margin-bottom: 0;
     }
+    .content .products .img-products .xam{
+      top: 3%;
+      left: 4%;
+      width: 87%;
+      height: 95%;
+    }
+    .content .products .img-products .chuto{
+        font-size: 2.2rem
+    }
+    .content .products .img-products .chunho{
+        font-size: 0.8rem;
+        left: 8%;
+        width: 80%;
+    }
+    .content .products .img-products .icon{
+        left: 30%;
+
+    }
     .products .img-products{
       max-width: 100%;
-      height: 200px;
+      height: 220px;
     }
   .products .img-products .img-bakery{
     width: 100%;
-    height: 200px;
+    height: 220px;
     padding: 2%;
   }
   .articles{
@@ -113,7 +130,6 @@
   }
 }
 
-/* Màng hình máy tính bảng nhỏ hoặc máy tính màng hình nhỏ */
 @media (min-width: 768px) and (max-width: 991px) {
   h1 {
     font-size: 2.5rem;
@@ -123,7 +139,7 @@
   }
   .banner{
     width: 100%;
-    max-height: 70%;
+    max-height: 40%;
     position: relative;
   }
   .banner-img{
@@ -167,12 +183,31 @@
       padding: 5% 2%;
     }
     .content .products h1{
-      margin-top: 25%;
+      margin-top: 10%;
       margin-bottom: 0;
+    }
+    .content .products .img-products .xam{
+      top: 3%;
+      left: 4%;
+      width: 87%;
+      height: 95%;
+    }
+    .content .products .img-products .chuto{
+        font-size: 2.2rem
+    }
+    .content .products .img-products .chunho{
+        font-size: 0.8rem;
+        left: 8%;
+        width: 80%;
+    }
+    .content .products .img-products .icon{
+        left: 30%;
+
     }
     .recommentdation .recommentdation-image {
       left: 0;
     }
+
       .recommentdation .recommentdation-image .img-bakery-2{
         max-width: 100%;
         max-height: 100%;
@@ -191,8 +226,7 @@
 
 }
 
-/* Màng hình máy tính bảng rất nhỏ hoặc điện thoại di động */
-@media (max-width: 767px) and (orientation : landscape) {
+@media (min-width: 569px) and (max-width: 767px) {
   h1 {
     font-size: 2.5rem;
   }
@@ -201,7 +235,7 @@
   }
   .banner{
     width: 100%;
-    max-height: 70%;
+    max-height: 40%;
     position: relative;
   }
   .banner-img{
@@ -219,14 +253,14 @@
   }
   .banner .details .details-btn{
     font-size: 0.7rem;
-    max-width: 25%;
+    max-width: 35%;
     max-height: 60%;
     padding: 0.8% 5%;
-    left: 40%;
-    top: 45%;
+    left: 35%;
+    top: 35%;
   }
   .banner .nutslide .next,.prev{
-    top: 35%;
+    top: 40%;
   }
     .banner .nutslide i{
       font-size: 60%;
@@ -273,6 +307,16 @@
     .articles .articles-content .noidung p {
       font-size: 0.8rem;
     }
+    .articles .articles-content .img-bakery-3{
+      width: 100%;
+      height: 100%;
+    }
+    .content .products .img-products .xam{
+      top: 3%;
+      left: 4%;
+      width: 88%;
+      height: 95%;
+    }
     .footer .contact-us,.opening{
       border-bottom: 1px solid white;
     }
@@ -283,7 +327,107 @@
     }
 }
 
-/* Điện thoại di động hoặc màng hình cực nhỏ */
+@media (min-width: 481px) and (max-width: 568px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .header ul li a{
+    border-bottom: 1px solid white;
+  }
+  .banner{
+    width: 100%;
+    max-height: 30%;
+    position: relative;
+  }
+  .banner-img{
+    width: 100%;
+    height: 100%;
+  }
+  .banner-img .slide-img{
+    height: 100%;
+  }
+  .banner-img .slide-img img{
+    height: 100%;
+  }
+  .banner .details{
+    width: 100%;
+  }
+  .banner .details .details-btn{
+    font-size: 0.7rem;
+    max-width: 35%;
+    max-height: 60%;
+    padding: 0.8% 5%;
+    left: 35%;
+    top: 35%;
+  }
+  .banner .nutslide .next,.prev{
+    top: 40%;
+  }
+    .banner .nutslide i{
+      font-size: 60%;
+    }
+    .products .img-products .img-bakery{
+      width: 100%;
+      height: 100%;
+      padding: 2%;
+    }
+    .content .products h1{
+      margin-top: 30%;
+      margin-bottom: 0;
+    }
+    .recommentdation {
+      padding: 50px 80px;
+    }
+    .recommentdation h1{
+      font-size: 2rem;
+    }
+    .recommentdation-content{
+      text-align: center;
+      margin-top: 2%;
+    }
+    .recommentdation p{
+      max-width: 100%;
+    }
+
+    .recommentdation .recommentdation-image {
+      left: 0;
+      margin: 5% 0;
+    }
+
+    .recommentdation .recommentdation-image img {
+      max-width: 100%;
+    }
+    .articles .articles-content {
+      max-width: 100%;
+      max-height: 100%;
+      margin-bottom: 8%;
+    }
+    .articles .articles-content .noidung h4 a{
+      font-size: 1.1rem;
+    }
+    .articles .articles-content .noidung p {
+      font-size: 0.8rem;
+    }
+    .articles .articles-content .img-bakery-3{
+      width: 100%;
+      height: 100%;
+    }
+    .content .products .img-products .xam{
+      top: 3%;
+      left: 4%;
+      width: 88%;
+      height: 95%;
+    }
+    .footer .contact-us,.opening{
+      border-bottom: 1px solid white;
+    }
+    .footer .contact-us,.opening,.info-baguetto{
+      padding-bottom: 5%;
+      padding-top: 5%;
+      padding-left: 20%;
+    }
+}
+
 @media (max-width: 480px) {
   h1 {
     font-size: 2rem;
