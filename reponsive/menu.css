@@ -1,0 +1,224 @@
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .menu{
+    padding: 20px 0px;
+  }
+  .banner {
+    width: 100%;
+    height: 130px;
+    background-size: 100%;
+  }
+  .header ul li a {
+    border-bottom: 1px solid white;
+  }
+  .img-bakery img{
+    width: 250px;
+    height: 150px;
+  }
+  .img-bakery{
+    width: 250px;
+    box-sizing: border-box;
+  }
+  .content-bakery{
+    width: 350px;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+    .content-bakery h6{
+      margin: 13px 0px;
+    }
+  .list-bakery{
+    width: 250px;
+    height: 470px;
+    margin-bottom: 30px;
+    margin: 30px auto;
+  }
+  .content-bakery h4{
+      font-size: 14px;
+  }
+  .phantrang{
+    margin-left: 6px;
+    font-size: 14px;
+    display: flex;
+    max-width: 375px;
+  }
+    .phantrang a{
+      padding: 10px 12px;
+    }
+  .moveleft{
+    animation: moveleft cubic-bezier(.31,.64,.57,.86) 0.8s forwards;
+  }
+  .moveright{
+    animation: moveright cubic-bezier(.31,.64,.57,.86) 0.8s forwards;
+  }
+  .contact-us, .opening {
+    padding: 15px 0;
+    border-bottom: 1px solid black;
+  }
+  .info-baguetto{
+    margin-top: 12px;
+    padding: 0px 0px;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .banner {
+    width: 100%;
+    height: 235px;
+    background-size: 100%;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .header ul li a {
+    border-bottom: 1px solid white;
+  }
+  .menu{
+    padding: 20px 0px;
+  }
+  .img-bakery img{
+    width: 350px;
+    height: 250px;
+  }
+
+  .content-bakery{
+    width: 350px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+  }
+    .content-bakery h6{
+      margin: 13px 0px;
+    }
+  .list-bakery{
+    width: 350px;
+    height: 540px;
+    margin-bottom: 30px;
+    margin: 30px auto;
+  }
+  .content-bakery h4{
+      font-size: 14px;
+  }
+  .phantrang{
+    margin: 0 auto;
+    font-size: 14px;
+    display: flex;
+    max-width: 375px;
+  }
+    .phantrang a{
+      padding: 10px 12px;
+    }
+  .moveleft{
+    animation: moveleft cubic-bezier(.31,.64,.57,.86) 0.8s forwards;
+  }
+  .moveright{
+    animation: moveright cubic-bezier(.31,.64,.57,.86) 0.8s forwards;
+  }
+  .contact-us, .opening {
+    padding: 15px 0;
+    border-bottom: 1px solid black;
+  }
+  .info-baguetto{
+    margin-top: 12px;
+    padding: 0px 0px;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .banner {
+    width: 100%;
+    height: 130px;
+    background-size: 100%;
+  }
+  .header ul li a {
+    border-bottom: 1px solid white;
+  }
+  .phantrang{
+    margin: 0 auto;
+    font-size: 14px;
+    display: flex;
+    max-width: 375px;
+  }
+    .phantrang a{
+      padding: 10px 12px;
+    }
+    .list-bakery{
+      width: 250px;
+      height: 490px;
+      margin-bottom: 30px;
+      margin: 30px auto;
+    }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+
+      .banner {
+        width: 100%;
+        height: 235px;
+        background-size: 100%;
+      }
+      h1 {
+        font-size: 30px;
+      }
+      .header ul li a {
+        border-bottom: 1px solid white;
+      }
+      .menu{
+        padding: 20px 0px;
+      }
+      .img-bakery img{
+        width: 350px;
+        height: 250px;
+      }
+
+      .content-bakery{
+        width: 350px;
+        padding-left: 40px;
+        padding-right: 40px;
+
+      }
+        .content-bakery h6{
+          margin: 13px 0px;
+        }
+      .list-bakery{
+        width: 350px;
+        height: 570px;
+        margin-bottom: 30px;
+        margin: 30px auto;
+      }
+      .content-bakery h4{
+          font-size: 14px;
+      }
+      .phantrang{
+        margin: 0 auto;
+        font-size: 14px;
+        display: flex;
+        max-width: 375px;
+      }
+        .phantrang a{
+          padding: 10px 12px;
+        }
+      .moveleft{
+        animation: moveleft cubic-bezier(.31,.64,.57,.86) 0.8s forwards;
+      }
+      .moveright{
+        animation: moveright cubic-bezier(.31,.64,.57,.86) 0.8s forwards;
+      }
+      .contact-us, .opening {
+        padding: 15px 0;
+        border-bottom: 1px solid black;
+      }
+      .info-baguetto{
+        margin-top: 12px;
+        padding: 0px 0px;
+      }
+}

@@ -1,0 +1,409 @@
+/* Màng hình laptop hoặc desktop lớn*/
+@media (min-width: 1367px) {
+  .banner{
+    width: 100%;
+    max-height: 100%;
+    position: relative;
+  }
+  .banner-img{
+    width: 100%;
+    height: 100%;
+  }
+  .banner-img .slide-img{
+    height: 100%;
+  }
+  .banner-img .slide-img img{
+    height: 100%;
+  }
+  .banner .details{
+    width: 100%;
+  }
+  .banner .details .details-btn{
+    top:50%;
+
+  max-width: 100%;
+    max-height: 100%;
+  }
+  .recommentdation-image{
+    left: 0;
+    margin: 1.5% 0;
+  }
+  .recommentdation .recommentdation-image .img-bakery-2{
+  width: 50%;
+  height: 100%;
+  }
+  .recommentdation  .recommentdation-content{
+    text-align: center;
+  }
+ .recommentdation-content p{
+  max-width: 80%;
+  margin: 0 auto;
+  }
+  .articles .articles-content{
+    width: 95%;
+    height: auto;
+  }
+  .articles .articles-content .img-bakery-3{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Màng hình máy tính bảng lớn hoặc máy tính màng hình trung bình */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .banner{
+    width: 100%;
+    max-height: 70%;
+    position: relative;
+  }
+  .banner-img{
+    width: 100%;
+    height: 100%;
+  }
+  .banner-img .slide-img{
+    height: 100%;
+  }
+  .banner-img .slide-img img{
+    height: 100%;
+  }
+  .banner .details{
+    width: 100%;
+  }
+  .banner .details .details-btn{
+    font-size: 1rem;
+    max-width: 25%;
+    max-height: 70%;
+    padding: 0.4% 5%;
+    left: 40%;
+    top: 80%;
+  }
+  .banner .nutslide .next,.prev{
+    top: 40%;
+  }
+
+    .banner .nutslide i{
+      font-size: 60%;
+    }
+    .content{
+      padding: 5% 2%;
+    }
+    .content .products h1{
+      margin-top: 10%;
+      margin-bottom: 0;
+    }
+    .products .img-products{
+      max-width: 100%;
+      height: 200px;
+    }
+  .products .img-products .img-bakery{
+    width: 100%;
+    height: 200px;
+    padding: 2%;
+  }
+  .articles{
+    padding: 5% 1%;
+  }
+  .articles .articles-content{
+    width: 95%;
+    height: auto;
+  }
+  .articles .articles-content .img-bakery-3{
+    width: 100%;
+    height: 250px;
+  }
+}
+
+/* Màng hình máy tính bảng nhỏ hoặc máy tính màng hình nhỏ */
+@media (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .header ul li a{
+    border-bottom: 1px solid white;
+  }
+  .banner{
+    width: 100%;
+    max-height: 70%;
+    position: relative;
+  }
+  .banner-img{
+    width: 100%;
+    height: 100%;
+  }
+  .banner-img .slide-img{
+    height: 100%;
+  }
+  .banner-img .slide-img img{
+    height: 100%;
+  }
+  .banner .details{
+    width: 100%;
+  }
+  .banner .details .details-btn{
+    font-size: 0.7rem;
+    max-width: 25%;
+    max-height: 60%;
+    padding: 0.8% 5%;
+    left: 40%;
+    top: 45%;
+  }
+  .banner .nutslide .next,.prev{
+    top: 40%;
+  }
+
+    .banner .nutslide i{
+      font-size: 60%;
+    }
+      .products .img-products{
+        max-width: 40%;
+      height: 220px;
+      }
+    .products .img-products .img-bakery{
+      width: 100%;
+      height: 100%;
+      padding: 2%;
+    }
+    .content{
+      padding: 5% 2%;
+    }
+    .content .products h1{
+      margin-top: 25%;
+      margin-bottom: 0;
+    }
+    .recommentdation .recommentdation-image {
+      left: 0;
+    }
+      .recommentdation .recommentdation-image .img-bakery-2{
+        max-width: 100%;
+        max-height: 100%;
+      }
+      .articles .articles-content {
+        max-width: 100%;
+        max-height: 100%;
+        margin-bottom: 8%;
+      }
+      .articles .articles-content .noidung h4 a{
+        font-size: 1.1rem;
+      }
+      .articles .articles-content .noidung p {
+        font-size: 0.8rem;
+      }
+
+}
+
+/* Màng hình máy tính bảng rất nhỏ hoặc điện thoại di động */
+@media (max-width: 767px) and (orientation : landscape) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .header ul li a{
+    border-bottom: 1px solid white;
+  }
+  .banner{
+    width: 100%;
+    max-height: 70%;
+    position: relative;
+  }
+  .banner-img{
+    width: 100%;
+    height: 100%;
+  }
+  .banner-img .slide-img{
+    height: 100%;
+  }
+  .banner-img .slide-img img{
+    height: 100%;
+  }
+  .banner .details{
+    width: 100%;
+  }
+  .banner .details .details-btn{
+    font-size: 0.7rem;
+    max-width: 25%;
+    max-height: 60%;
+    padding: 0.8% 5%;
+    left: 40%;
+    top: 45%;
+  }
+  .banner .nutslide .next,.prev{
+    top: 35%;
+  }
+    .banner .nutslide i{
+      font-size: 60%;
+    }
+    .products .img-products .img-bakery{
+      width: 100%;
+      height: 100%;
+      padding: 2%;
+    }
+    .content .products h1{
+      margin-top: 30%;
+      margin-bottom: 0;
+    }
+    .recommentdation {
+      padding: 50px 80px;
+    }
+    .recommentdation h1{
+      font-size: 2rem;
+    }
+    .recommentdation-content{
+      text-align: center;
+      margin-top: 2%;
+    }
+    .recommentdation p{
+      max-width: 100%;
+    }
+
+    .recommentdation .recommentdation-image {
+      left: 0;
+      margin: 5% 0;
+    }
+
+    .recommentdation .recommentdation-image img {
+      max-width: 100%;
+    }
+    .articles .articles-content {
+      max-width: 100%;
+      max-height: 100%;
+      margin-bottom: 8%;
+    }
+    .articles .articles-content .noidung h4 a{
+      font-size: 1.1rem;
+    }
+    .articles .articles-content .noidung p {
+      font-size: 0.8rem;
+    }
+    .footer .contact-us,.opening{
+      border-bottom: 1px solid white;
+    }
+    .footer .contact-us,.opening,.info-baguetto{
+      padding-bottom: 5%;
+      padding-top: 5%;
+      padding-left: 20%;
+    }
+}
+
+/* Điện thoại di động hoặc màng hình cực nhỏ */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .header ul li a{
+    border-bottom: 1px solid white;
+  }
+  .banner{
+    width: 100%;
+    max-height: 20%;
+    position: relative;
+  }
+  .banner-img{
+    width: 100%;
+    height: 100%;
+  }
+  .banner-img .slide-img{
+    height: 100%;
+  }
+  .banner-img .slide-img img{
+    height: 100%;
+  }
+  .banner .details{
+    width: 100%;
+  }
+  .banner .details .details-btn{
+    font-size: 0.7rem;
+    max-width: 40%;
+    max-height: 50%;
+    padding: 1% 5%;
+    left: 32%;
+  }
+  .banner .nutslide .next,.prev{
+    top: 35%;
+  }
+    .banner .nutslide i{
+      font-size: 60%;
+    }
+    .content .products h1{
+      margin-top: 30%;
+      margin-bottom: 0;
+    }
+    .content .products .img-products .img-bakery{
+      width: 100%;
+      height: 100%;
+      padding: 8px;
+      margin-left: 0;
+    }
+    .content .products .img-products .xam{
+      top: 5%;
+      left: 9%;
+      width: 82%;
+      height: 90%;
+    }
+    .content .products .img-products .chuto{
+      font-size: 1.8rem;
+      top:10%;
+
+    }
+    .content .products .img-products .chunho{
+      font-size: 0.7rem;
+      top:50%;
+      width: 70%;
+      left: 15%;
+    }
+    .content .products .img-products .icon{
+      font-size: 0.9rem;
+      left: 30%;
+    }
+  .recommentdation {
+    padding: 50px 80px;
+  }
+  .recommentdation h1{
+    font-size: 2rem;
+  }
+
+  .recommentdation .recommentdation-image {
+    left: 0;
+    margin: 5% 0;
+  }
+
+  .recommentdation .recommentdation-image img {
+    max-width: 100%;
+  }
+
+  .articles h1 {
+    font-size: 2rem;
+  }
+
+  .articles .articles-content {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 10%;
+  }
+
+  .articles .articles-content img {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .articles .articles-content .noidung {
+    padding: 1rem;
+  }
+
+  .articles .articles-content .noidung h4 a{
+    font-size: 1.2rem;
+  }
+  .articles .articles-content .noidung p {
+    font-size: 0.9rem;
+  }
+  .footer .footer_row{
+    padding: 40px 0px !important;
+
+  }
+  .footer .contact-us,.opening{
+    border-bottom: 1px solid white;
+  }
+  .footer .contact-us,.opening,.info-baguetto{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 20%;
+  }
+}

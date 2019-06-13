@@ -1,0 +1,106 @@
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .contact{
+    padding: 20px 0px;
+  }
+  .banner {
+    width: 100%;
+    height: 130px;
+    background-size: 100%;
+  }
+  .header ul li a {
+    border-bottom: 1px solid white;
+  }
+  .row{
+    margin: 0px;
+  }
+  .contact2{
+    text-align: center;
+      width: 375px;
+    padding: 8px;
+    margin: auto;
+  }
+  .form-info{
+    width: 375px;
+    padding: 10px;
+    margin: auto;
+  }
+  .contact-us, .opening {
+    padding: 15px 0;
+    border-bottom: 1px solid black;
+  }
+  .info-baguetto{
+    margin-top: 12px;
+    padding: 0px 0px;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .banner {
+    width: 100%;
+    height: 235px;
+    background-size: 100%;
+  }
+  .header ul li a {
+    border-bottom: 1px solid white;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .row{
+    margin: 0px;
+  }
+  .contact2{
+    text-align: center;
+      width: 667px;
+    padding: 8px;
+    margin: auto;
+  }
+  .form-info{
+    width: 667px;
+    padding: 18px;
+    margin: auto;
+  }
+  .contact{
+    padding: 20px 0px;
+  }
+  .contact-us, .opening {
+    padding: 15px 0;
+    border-bottom: 1px solid black;
+  }
+  .info-baguetto{
+    margin-top: 12px;
+    padding: 0px 0px;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .banner {
+    width: 100%;
+    height: 130px;
+    background-size: 100%;
+  }
+  .header ul li a {
+    border-bottom: 1px solid white;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .banner {
+    width: 100%;
+    height: 250px;
+    background-size: 100%;
+  }
+  .header ul li a {
+    border-bottom: 1px solid white;
+  }
+}
