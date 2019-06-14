@@ -146,7 +146,9 @@ h3 a:hover {
   font-size: 18px;
   margin-bottom: 30px;
 }
-
+.footer_first{
+  padding: 5%;
+}
 .header3 {
   font-family: 'Marck Script', cursive;
   font-size: 43px;
