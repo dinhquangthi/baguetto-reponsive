@@ -1,6 +1,262 @@
-@media (min-width: 1367px){}
-@media (min-width: 992px) and (max-width: 1199px){}
-@media (min-width: 768px) and (max-width: 991px){}
-@media (min-width: 569px) and (max-width: 767px) {}
-@media (min-width: 481px) and (max-width: 568px){}
-@media (min-width: 481px) and (max-width: 568px){}
+@import "variables_responsive";
+body{
+  @media #{$big_screen} {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+}
+h1 {
+  @media #{$xs_mobile} {
+    font-size: 2.2rem;
+  }
+  @media #{$small_mobile} {
+    font-size: 2.2rem;
+  }
+  @media #{$large_mobile} {
+    font-size: 2.2rem;
+  }
+  @media #{$tab_device} {
+      font-size: 3rem;
+  }
+}
+a{
+  @media #{$tab_device} {
+      font-size: 1.1rem;
+  }
+}
+p {
+  @media #{$xs_mobile} {
+    font-size: 0.9rem;
+  }
+  @media #{$small_mobile} {
+    font-size: 0.9rem;
+  }
+  @media #{$large_mobile} {
+    font-size: 1.2rem;
+  }
+  @media #{$tab_device} {
+    font-size: 1.4rem;
+  }
+  @media #{$medium_device} {
+    font-size: 1.4rem;
+  }
+}
+
+h3 {
+  @media #{$xs_mobile} {
+    font-size: 1rem;
+  }
+  @media #{$small_mobile} {
+    font-size: 1rem;
+  }
+  @media #{$large_mobile} {
+    font-size: 1rem;
+  }
+}
+
+.about-img {
+  @media #{$xs_mobile} {
+    width: 100%;
+    height: auto;
+  }
+  @media #{$small_mobile} {
+    width: 100%;
+    height: auto;
+  }
+  @media #{$large_mobile} {
+    width: 100%;
+    height: auto;
+  }
+  @media #{$tab_device} {
+    width: 100%;
+    height: auto;
+  }
+  @media #{$medium_device} {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.header {
+  @media #{$xs_mobile} {
+    ul li {
+      border-bottom: 1px solid white;
+    }
+  }
+  @media #{$small_mobile} {
+    ul li {
+      border-bottom: 1px solid white;
+    }
+  }
+  @media #{$large_mobile} {
+    ul li {
+      border-bottom: 1px solid white;
+    }
+  }
+  @media #{$tab_device} {
+    ul li {
+      border-bottom: 1px solid white;
+    }
+  }
+}
+
+.banner {
+  @media #{$xs_mobile} {
+    height: 25%;
+  }
+  @media #{$small_mobile} {
+    height: 25%;
+  }
+  @media #{$large_mobile} {
+    height: 35%;
+  }
+  @media #{$tab_device} {
+    height: 45%;
+  }
+}
+
+.about-1980 {
+  @media #{$xs_mobile} {
+    width: 100%;
+
+    p {
+      width: 100%;
+      font-size: 0.9rem;
+    }
+  }
+  @media #{$small_mobile} {
+    width: 100%;
+
+    p {
+      width: 100%;
+      font-size: 0.9rem;
+    }
+  }
+  @media #{$large_mobile} {
+    width: 100%;
+
+    p {
+      width: 100%;
+      font-size: 1.2rem;
+    }
+  }
+  @media #{$tab_device} {
+    width: 100%;
+
+    p {
+      width: 100%;
+      font-size: 1.3rem;
+    }
+  }
+  @media #{$medium_device} {
+    width: 100%;
+    p {
+      width: 100%;
+      font-size: 1.4rem;
+    }
+  }
+
+}
+
+.about-1990,
+.about-2005,
+.about-2017 {
+  @media #{$xs_mobile} {
+    p {
+      font-size: 1rem;
+    }
+  }
+  @media #{$small_mobile} {
+    p {
+      font-size: 1rem;
+    }
+  }
+  @media #{$large_mobile} {
+    p {
+      font-size: 1.2rem;
+    }
+  }
+  @media #{$medium_device} {
+    width: 100%;
+    p {
+      width: 100%;
+      font-size: 1.4rem;
+    }
+  }
+}
+.content{
+  .masterchef{
+    .chef{
+      .chunho{
+        left: 0;
+        width: 100%;
+        p{
+          font-size: 1rem;
+        }
+      }
+      .icon{
+        top: 85%;
+      }
+    }
+  }
+}
+.footer {
+  @media #{$xs_mobile} {
+    .contact-us,
+    .opening {
+      border-bottom: 1px solid white;
+    }
+
+    .info-baguetto,
+    .opening {
+      padding: 10% 0 !important;
+    }
+    .contact-us,
+    .opening,.info-baguetto{
+      p{
+        font-size: 1rem;
+      }
+    }
+  }
+  @media #{$small_mobile} {
+    .contact-us,
+    .opening {
+      border-bottom: 1px solid white;
+    }
+
+    .info-baguetto,
+    .opening {
+      padding: 10% 0 !important;
+    }
+    .contact-us,
+    .opening,.info-baguetto{
+      p{
+        font-size: 1rem;
+      }
+    }
+  }
+  @media #{$large_mobile} {
+    .contact-us,
+    .opening,.info-baguetto{
+      p{
+        font-size: 1rem;
+      }
+    }
+  }
+  @media #{$tab_device} {
+    .contact-us,
+    .opening,.info-baguetto{
+      p{
+        font-size: 1rem;
+      }
+    }
+  }
+  @media #{$medium_device} {
+    .contact-us,
+    .opening,.info-baguetto{
+      p{
+        font-size: 1rem;
+      }
+    }
+  }
+}
