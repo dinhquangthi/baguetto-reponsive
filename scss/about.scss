@@ -79,22 +79,22 @@ h3 {
 
 .header {
   @media #{$xs_mobile} {
-    ul li {
+    ul li:not(:last-child) {
       border-bottom: 1px solid white;
     }
   }
   @media #{$small_mobile} {
-    ul li {
+    ul li:not(:last-child) {
       border-bottom: 1px solid white;
     }
   }
   @media #{$large_mobile} {
-    ul li {
+    ul li:not(:last-child) {
       border-bottom: 1px solid white;
     }
   }
   @media #{$tab_device} {
-    ul li {
+    ul li:not(:last-child) {
       border-bottom: 1px solid white;
     }
   }
