@@ -1,6 +1,6 @@
 $(function($){
   $('.list-gallery ul').isotope({
-      itemSelector: 'li'
+      itemSelector: 'li',
     });
     $('.filter ul li a').click(function(event) {
       var danhmuc = $(this).data('category');
