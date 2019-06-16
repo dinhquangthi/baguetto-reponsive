@@ -1,224 +1,200 @@
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-/* Portrait */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  h1 {
-    font-size: 30px;
-  }
+/*Responsive xs_mobile*/
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .header ul li:not(:last-child) {
+    border-bottom: 1px solid white; }
 
-  .menu{
-    padding: 20px 0px;
-  }
   .banner {
-    width: 100%;
-    height: 130px;
-    background-size: 100%;
-  }
-  .header ul li a {
-    border-bottom: 1px solid white;
-  }
-  .img-bakery img{
-    width: 250px;
-    height: 150px;
-  }
-  .img-bakery{
-    width: 250px;
-    box-sizing: border-box;
-  }
-  .content-bakery{
-    width: 350px;
-    padding-left: 35px;
-    padding-right: 35px;
-  }
-    .content-bakery h6{
-      margin: 13px 0px;
-    }
-  .list-bakery{
-    width: 250px;
-    height: 470px;
-    margin-bottom: 30px;
-    margin: 30px auto;
-  }
-  .content-bakery h4{
-      font-size: 14px;
-  }
-  .phantrang{
-    margin-left: 6px;
-    font-size: 14px;
-    display: flex;
-    max-width: 375px;
-  }
-    .phantrang a{
-      padding: 10px 12px;
-    }
-  .moveleft{
-    animation: moveleft cubic-bezier(.31,.64,.57,.86) 0.8s forwards;
-  }
-  .moveright{
-    animation: moveright cubic-bezier(.31,.64,.57,.86) 0.8s forwards;
-  }
-  .contact-us, .opening {
-    padding: 15px 0;
-    border-bottom: 1px solid black;
-  }
-  .info-baguetto{
-    margin-top: 12px;
-    padding: 0px 0px;
-  }
-}
+    height: 25%; }
 
-/* Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .menu {
+    padding: 10% 5%; }
+    .menu .list-bakery {
+      height: auto;
+      max-width: 70%;
+      margin: 4% auto; }
+      .menu .list-bakery .img-bakery img {
+        height: auto;
+        width: 100%; }
+      .menu .list-bakery .content-bakery {
+        padding-left: 10%;
+        height: auto;
+        padding-bottom: 4%; }
+        .menu .list-bakery .content-bakery h1 {
+          font-size: 1.6rem; }
+        .menu .list-bakery .content-bakery h4 {
+          width: 100%;
+          font-size: 1rem; }
+    .menu .phantrang a {
+      margin: 0 3% 1% 0;
+      display: inline-block; }
+
+  .footer .footer_first {
+    padding: 5%; }
+  .footer .contact-us,
+  .footer .opening {
+    border-bottom: 1px solid white; }
+  .footer .info-baguetto,
+  .footer .opening {
+    padding: 5% 0 !important; }
+  .footer .contact-us p,
+  .footer .info-baguetto p,
+  .footer .opening p {
+    font-size: 1rem; } }
+/*Responsive small_mobile*/
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .header ul li:not(:last-child) {
+    border-bottom: 1px solid white; }
+
   .banner {
-    width: 100%;
-    height: 235px;
-    background-size: 100%;
-  }
-  h1 {
-    font-size: 30px;
-  }
-  .header ul li a {
-    border-bottom: 1px solid white;
-  }
-  .menu{
-    padding: 20px 0px;
-  }
-  .img-bakery img{
-    width: 350px;
-    height: 250px;
-  }
+    height: 30%; }
 
-  .content-bakery{
-    width: 350px;
-    padding-left: 40px;
-    padding-right: 40px;
+  .menu {
+    padding: 10% 5%; }
+    .menu .list-bakery {
+      height: auto;
+      max-width: 70%;
+      margin: 4% auto; }
+      .menu .list-bakery .img-bakery img {
+        height: auto;
+        width: 100%; }
+      .menu .list-bakery .content-bakery {
+        padding-left: 10%;
+        height: auto;
+        padding-bottom: 4%; }
+        .menu .list-bakery .content-bakery h1 {
+          font-size: 1.6rem; }
+        .menu .list-bakery .content-bakery h4 {
+          width: 100%;
+          font-size: 1rem; }
+    .menu .phantrang a {
+      margin: 0 3% 1% 0;
+      display: inline-block; }
 
-  }
-    .content-bakery h6{
-      margin: 13px 0px;
-    }
-  .list-bakery{
-    width: 350px;
-    height: 540px;
-    margin-bottom: 30px;
-    margin: 30px auto;
-  }
-  .content-bakery h4{
-      font-size: 14px;
-  }
-  .phantrang{
-    margin: 0 auto;
-    font-size: 14px;
-    display: flex;
-    max-width: 375px;
-  }
-    .phantrang a{
-      padding: 10px 12px;
-    }
-  .moveleft{
-    animation: moveleft cubic-bezier(.31,.64,.57,.86) 0.8s forwards;
-  }
-  .moveright{
-    animation: moveright cubic-bezier(.31,.64,.57,.86) 0.8s forwards;
-  }
-  .contact-us, .opening {
-    padding: 15px 0;
-    border-bottom: 1px solid black;
-  }
-  .info-baguetto{
-    margin-top: 12px;
-    padding: 0px 0px;
-  }
-}
+  .footer .footer_first {
+    padding: 5%; }
+  .footer .contact-us,
+  .footer .opening {
+    border-bottom: 1px solid white; }
+  .footer .info-baguetto,
+  .footer .opening {
+    padding: 5% 0 !important; }
+  .footer .contact-us p,
+  .footer .info-baguetto p,
+  .footer .opening p {
+    font-size: 1rem; } }
+/*Responsive large_mobile*/
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .header ul li:not(:last-child) {
+    border-bottom: 1px solid white; }
 
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
-/* Portrait */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
   .banner {
-    width: 100%;
-    height: 130px;
-    background-size: 100%;
-  }
-  .header ul li a {
-    border-bottom: 1px solid white;
-  }
-  .phantrang{
-    margin: 0 auto;
-    font-size: 14px;
-    display: flex;
-    max-width: 375px;
-  }
-    .phantrang a{
-      padding: 10px 12px;
-    }
-    .list-bakery{
-      width: 250px;
-      height: 490px;
-      margin-bottom: 30px;
-      margin: 30px auto;
-    }
-}
+    height: 35%; }
 
-/* Landscape */
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .menu {
+    padding: 10% 5%; }
+    .menu .list-bakery {
+      height: auto;
+      max-width: 70%;
+      margin: 2% auto; }
+      .menu .list-bakery .img-bakery img {
+        height: auto;
+        width: 100%; }
+      .menu .list-bakery .content-bakery {
+        padding-left: 10%;
+        height: auto;
+        padding-bottom: 4%; }
+        .menu .list-bakery .content-bakery h4 {
+          width: 100%; }
+    .menu .phantrang a {
+      margin-right: 0;
+      display: inline-block; }
 
-      .banner {
-        width: 100%;
-        height: 235px;
-        background-size: 100%;
-      }
-      h1 {
-        font-size: 30px;
-      }
-      .header ul li a {
-        border-bottom: 1px solid white;
-      }
-      .menu{
-        padding: 20px 0px;
-      }
-      .img-bakery img{
-        width: 350px;
-        height: 250px;
-      }
+  .footer .footer_first {
+    padding: 5%; }
+  .footer .contact-us,
+  .footer .opening {
+    border-bottom: 1px solid white; }
+  .footer .info-baguetto,
+  .footer .opening {
+    padding: 5% 0 !important; }
+  .footer .contact-us p,
+  .footer .info-baguetto p,
+  .footer .opening p {
+    font-size: 1rem; } }
+/*Responsive tab_device*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header ul li:not(:last-child) {
+    border-bottom: 1px solid white; }
 
-      .content-bakery{
-        width: 350px;
-        padding-left: 40px;
-        padding-right: 40px;
+  .banner {
+    height: 55%; }
 
-      }
-        .content-bakery h6{
-          margin: 13px 0px;
-        }
-      .list-bakery{
-        width: 350px;
-        height: 570px;
-        margin-bottom: 30px;
-        margin: 30px auto;
-      }
-      .content-bakery h4{
-          font-size: 14px;
-      }
-      .phantrang{
-        margin: 0 auto;
-        font-size: 14px;
+  .menu {
+    padding: 10% 5%; }
+    .menu .list-bakery {
+      height: auto; }
+      .menu .list-bakery .img-bakery {
+        width: 100%; }
+        .menu .list-bakery .img-bakery img {
+          height: 100%;
+          width: 100%; }
+      .menu .list-bakery .content-bakery {
+        height: 100%;
+        padding: 0 3% 0 2%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        max-width: 375px;
-      }
-        .phantrang a{
-          padding: 10px 12px;
-        }
-      .moveleft{
-        animation: moveleft cubic-bezier(.31,.64,.57,.86) 0.8s forwards;
-      }
-      .moveright{
-        animation: moveright cubic-bezier(.31,.64,.57,.86) 0.8s forwards;
-      }
-      .contact-us, .opening {
-        padding: 15px 0;
-        border-bottom: 1px solid black;
-      }
-      .info-baguetto{
-        margin-top: 12px;
-        padding: 0px 0px;
-      }
-}
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-item-align: center;
+            align-self: center; }
+        .menu .list-bakery .content-bakery h1 {
+          font-size: 1.6rem; }
+        .menu .list-bakery .content-bakery h4 {
+          font-size: 1rem; }
+        .menu .list-bakery .content-bakery h6 {
+          margin: 0; } }
+/*Responsive medium_device*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .banner {
+    height: 60%; }
+
+  .menu {
+    padding: 10% 5%; }
+    .menu .list-bakery {
+      height: auto; }
+      .menu .list-bakery .img-bakery {
+        width: 100%; }
+        .menu .list-bakery .img-bakery img {
+          height: auto;
+          width: 100%; }
+      .menu .list-bakery .content-bakery {
+        height: 100%;
+        padding: 0 3% 0 2%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-item-align: center;
+            align-self: center; } }
+/*Responsive big_screen*/
+@media (min-width: 1200px) {
+  body {
+    max-width: 1920px;
+    margin: 0 auto; }
+
+  .menudam {
+    max-width: 1920px; }
+
+  .list-bakery {
+    overflow: hidden; }
+    .list-bakery .img-bakery {
+      width: 100%; }
+      .list-bakery .img-bakery img {
+        max-width: 100%;
+        height: 100%; } }

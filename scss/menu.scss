@@ -1,0 +1,238 @@
+@import "variables_responsive";
+@mixin footer($padding){
+  .footer_first {
+    padding: $padding;
+  }
+
+  .contact-us,
+  .opening {
+    border-bottom: 1px solid white;
+  }
+
+  .info-baguetto,
+  .opening {
+    padding: $padding 0 !important;
+  }
+
+  .contact-us,
+  .info-baguetto,
+  .opening {
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+/*Responsive xs_mobile*/
+@media #{$xs_mobile} {
+  .header {
+    ul li:not(:last-child) {
+      border-bottom: 1px solid white;
+    }
+  }
+  .banner{
+    height: 25%;
+  }
+  .menu{
+    padding: 10% 5%;
+    .list-bakery{
+      height: auto;
+      max-width: 70%;
+      margin: 4% auto;
+        .img-bakery{
+          img{
+            height: auto;
+            width: 100%;
+          }
+        }
+        .content-bakery{
+          padding-left: 10%;
+          height: auto;
+          padding-bottom: 4%;
+          h1{
+            font-size: 1.6rem;
+          }
+          h4{
+            width: 100%;
+            font-size: 1rem;
+          }
+        }
+    }
+    .phantrang a{
+        margin: 0 3% 1% 0;
+        display: inline-block;
+    }
+  }
+  .footer {
+  @include footer(5%);
+  }
+}
+/*Responsive small_mobile*/
+@media #{$small_mobile} {
+  .header {
+    ul li:not(:last-child) {
+      border-bottom: 1px solid white;
+    }
+  }
+  .banner{
+    height: 30%;
+  }
+  .menu{
+    padding: 10% 5%;
+    .list-bakery{
+      height: auto;
+      max-width: 70%;
+      margin: 4% auto;
+        .img-bakery{
+          img{
+            height: auto;
+            width: 100%;
+          }
+        }
+        .content-bakery{
+          padding-left: 10%;
+          height: auto;
+          padding-bottom: 4%;
+          h1{
+            font-size: 1.6rem;
+          }
+          h4{
+            width: 100%;
+            font-size: 1rem;
+          }
+        }
+    }
+    .phantrang a{
+        margin: 0 3% 1% 0;
+        display: inline-block;
+    }
+  }
+  .footer {
+  @include footer(5%);
+  }
+}
+/*Responsive large_mobile*/
+@media #{$large_mobile} {
+  .header {
+    ul li:not(:last-child) {
+      border-bottom: 1px solid white;
+    }
+  }
+  .banner{
+    height: 35%;
+  }
+  .menu{
+    padding: 10% 5%;
+    .list-bakery{
+      height: auto;
+      max-width: 70%;
+      margin: 2% auto;
+        .img-bakery{
+          img{
+            height: auto;
+            width: 100%;
+          }
+        }
+        .content-bakery{
+          padding-left: 10%;
+          height: auto;
+          padding-bottom: 4%;
+          h4{
+            width: 100%;
+          }
+        }
+    }
+    .phantrang a{
+        margin-right: 0;
+        display: inline-block;
+    }
+  }
+  .footer {
+  @include footer(5%);
+  }
+}
+/*Responsive tab_device*/
+@media #{$tab_device} {
+  .header {
+    ul li:not(:last-child) {
+      border-bottom: 1px solid white;
+    }
+  }
+  .banner{
+    height: 55%;
+  }
+  .menu{
+    padding: 10% 5%;
+    .list-bakery{
+      height: auto;
+        .img-bakery{
+          width: 100%;
+          img{
+            height: 100%;
+            width: 100%;
+          }
+        }
+        .content-bakery{
+          height: 100%;
+          padding: 0 3% 0 2%;
+          display: flex;
+          flex-direction: column;
+          align-self: center;
+          h1{
+            font-size: 1.6rem;
+          }
+          h4{
+            font-size: 1rem;
+          }
+          h6{
+            margin: 0;
+          }
+        }
+    }
+  }
+}
+/*Responsive medium_device*/
+@media #{$medium_device} {
+  .banner{
+    height: 60%;
+  }
+  .menu{
+    padding: 10% 5%;
+    .list-bakery{
+      height: auto;
+        .img-bakery{
+          width: 100%;
+          img{
+            height: auto;
+            width: 100%;
+          }
+        }
+        .content-bakery{
+          height: 100%;
+          padding: 0 3% 0 2%;
+          display: flex;
+          flex-direction: column;
+          align-self: center;
+        }
+    }
+  }
+}
+/*Responsive big_screen*/
+@media #{$big_screen} {
+  body{
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  .menudam{
+    max-width: 1920px;
+  }
+  .list-bakery{
+    overflow: hidden;
+    .img-bakery{
+      width: 100%;
+      img{
+        max-width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
