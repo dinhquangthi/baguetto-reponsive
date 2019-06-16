@@ -1,70 +1,128 @@
+/*Responsive xs_mobile*/
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  h1 {
+    font-size: 2.2rem; }
+
+  p {
+    font-size: 0.9rem; }
+
+  h3 {
+    font-size: 1rem; }
+
+  .header ul li:not(:last-child) {
+    border-bottom: 1px solid white; }
+
+  .banner {
+    height: 25%; }
+
+  .contact {
+    padding: 10%; }
+
+  .footer .footer_first {
+    padding: 10%; }
+  .footer .contact-us,
+  .footer .opening {
+    border-bottom: 1px solid white; }
+  .footer .info-baguetto,
+  .footer .opening {
+    padding: 10% 0 !important; }
+  .footer .contact-us p,
+  .footer .info-baguetto p,
+  .footer .opening p {
+    font-size: 1rem; } }
+/*Responsive small_mobile*/
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  h1 {
+    font-size: 2.2rem; }
+
+  p {
+    font-size: 0.9rem; }
+
+  h3 {
+    font-size: 1rem; }
+
+  .banner {
+    height: 25%; }
+
+  .header ul li:not(:last-child) {
+    border-bottom: 1px solid white; }
+
+  .contact {
+    padding: 10%; }
+
+  .footer .footer_first {
+    padding: 10%; }
+  .footer .contact-us,
+  .footer .opening {
+    border-bottom: 1px solid white; }
+  .footer .info-baguetto,
+  .footer .opening {
+    padding: 10% 0 !important; }
+  .footer .contact-us p,
+  .footer .info-baguetto p,
+  .footer .opening p {
+    font-size: 1rem; } }
+/*Responsive large_mobile*/
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  h1 {
+    font-size: 2.2rem; }
+
+  p {
+    font-size: 0.9rem; }
+
+  h3 {
+    font-size: 1rem; }
+
+  .banner {
+    height: 30%; }
+
+  .header ul li:not(:last-child) {
+    border-bottom: 1px solid white; }
+
+  .contact {
+    padding: 10%; }
+
+  .footer .footer_first {
+    padding: 10%; }
+  .footer .contact-us,
+  .footer .opening {
+    border-bottom: 1px solid white; }
+  .footer .info-baguetto,
+  .footer .opening {
+    padding: 10% 0 !important; }
+  .footer .contact-us p,
+  .footer .info-baguetto p,
+  .footer .opening p {
+    font-size: 1rem; } }
+/*Responsive tab_device*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .header ul li:not(:last-child) {
+    border-bottom: 1px solid white; }
+
+  .banner {
+    height: 40%; } }
+/*Responsive medium_device*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  h1 {
+    font-size: 3rem; }
+
+  a {
+    font-size: 1.1rem; }
+
+  p {
+    font-size: 1.4rem; }
+
+  .banner {
+    height: 50%; }
+
+  .footer .footer_first {
+    padding: 10%; }
+    .footer .footer_first .contact-us p,
+    .footer .footer_first .info-baguetto p,
+    .footer .footer_first .opening p {
+      font-size: 1rem; } }
+/*Responsive big_screen*/
 @media (min-width: 1200px) {
   body {
     max-width: 1920px;
     margin: 0 auto; } }
-
-@media (max-width: 420px) {
-  .header ul li:not(:last-child) {
-    border-bottom: 1px solid white; } }
-@media only screen and (min-width: 421px) and (max-width: 576px) {
-  .header ul li:not(:last-child) {
-    border-bottom: 1px solid white; } }
-@media only screen and (min-width: 577px) and (max-width: 767px) {
-  .header ul li:not(:last-child) {
-    border-bottom: 1px solid white; } }
-@media only screen and (min-width: 578px) and (max-width: 991px) {
-  .header ul li:not(:last-child) {
-    border-bottom: 1px solid white; } }
-
-@media (max-width: 420px) {
-  .banner {
-    width: 100%;
-    height: 30%; } }
-@media only screen and (min-width: 421px) and (max-width: 576px) {
-  .banner {
-    width: 100%;
-    height: 35%; } }
-@media only screen and (min-width: 577px) and (max-width: 767px) {
-  .banner {
-    width: 100%;
-    height: 40%; } }
-@media only screen and (min-width: 578px) and (max-width: 991px) {
-  .banner {
-    width: 100%;
-    height: 45%; } }
-
-@media (max-width: 420px) {
-  .footer .contact-us, .footer .opening {
-    border-bottom: 1px solid white; }
-  .footer .contact-us {
-    padding: 0; }
-  .footer .opening, .footer .info-baguetto {
-    padding: 10% 0; }
-  .footer .opening p, .footer .info-baguetto p {
-    font-size: 1rem; } }
-@media only screen and (min-width: 421px) and (max-width: 576px) {
-  .footer .contact-us, .footer .opening {
-    border-bottom: 1px solid white; }
-  .footer .contact-us {
-    padding: 0; }
-  .footer .opening, .footer .info-baguetto {
-    padding: 8% 0; }
-  .footer .opening p, .footer .info-baguetto p {
-    font-size: 1rem; } }
-@media only screen and (min-width: 577px) and (max-width: 767px) {
-  .footer .contact-us, .footer .opening {
-    border-bottom: 1px solid white; }
-  .footer .contact-us {
-    padding: 0; }
-  .footer .opening, .footer .info-baguetto {
-    padding: 6% 0; }
-  .footer .opening p, .footer .info-baguetto p {
-    font-size: 1rem; } }
-@media only screen and (min-width: 578px) and (max-width: 991px) {
-  .footer .contact-us p,
-  .footer .opening p, .footer .info-baguetto p {
-    font-size: 1rem; } }
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .footer .contact-us p,
-  .footer .opening p, .footer .info-baguetto p {
-    font-size: 1rem; } }
