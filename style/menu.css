@@ -87,8 +87,7 @@ h3 a:hover {
   height: 350px;
   border: 1px solid #b5b5b58f;
   margin-bottom: 30px;
-  opacity: 0;
-  visibility: hidden;
+
 }
 .img-bakery{
   width: 500px;
@@ -145,34 +144,7 @@ font-family: 'Days One', sans-serif;
   color: white;
   transition: 0.3s;
 }
-.moveleft{
-  animation: moveleft cubic-bezier(.31,.64,.57,.86) 1.2s forwards;
-  opacity: 1;
-  visibility: visible;
-}
-@-webkit-keyframes moveleft{
-  0% {
-    transform: translateX(-500px);
-  }
 
-  100% {
-    transform: translateX(0px);
-  }
-}
-.moveright{
-  animation: moveright cubic-bezier(.31,.64,.57,.86) 1.2s forwards;
-  opacity: 1;
-  visibility: visible;
-}
-@-webkit-keyframes moveright{
-  0% {
-    transform: translateX(500px);
-  }
-
-  100% {
-    transform: translateX(0px);
-  }
-}
 /* ===============End Menu================== */
 .phantrang{
   text-align: center;
